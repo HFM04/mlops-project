@@ -18,24 +18,19 @@ A reproducible Python environment with automated CI validation.
    cd repo
 
 2. Create a virtual environment:
-  ```bash
   python -m venv venv
 
 3. Activate the environment:
 Linux/macOS:
-  ```bash
   source venv/bin/activate
 
 Windows:
-  ```bash
   venv\Scripts\activate
 
 4. Install dependencies:
-  ```bash
   pip install -r requirements.txt
 
 5. Verify the installation by running tests:
-  ```bash
   pytest -v
 
 Successful test execution confirms that the environment has been created correctly.
