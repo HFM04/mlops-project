@@ -22,17 +22,17 @@ A reproducible Python environment with automated CI validation.
    python -m venv venv
 
 3. Activate the environment:
-Linux/macOS:
+   Linux/macOS:
    ```bash
    source venv/bin/activate
 
-Windows:
+   Windows:
    ```bash
    venv\Scripts\activate
 
  4. Install dependencies:
-  ```bash
-  pip install -r requirements.txt
+     ```bash
+     pip install -r requirements.txt
 
  5. Verify the installation by running tests:
      ```bash
