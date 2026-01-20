@@ -23,16 +23,20 @@ A reproducible Python environment with automated CI validation.
 
 3. Activate the environment:
 Linux/macOS:
-  source venv/bin/activate
+   ```bash
+   source venv/bin/activate
 
 Windows:
-  venv\Scripts\activate
+   ```bash
+   venv\Scripts\activate
 
-4. Install dependencies:
+ 4. Install dependencies:
+  ```bash
   pip install -r requirements.txt
 
-5. Verify the installation by running tests:
-  pytest -v
+ 5. Verify the installation by running tests:
+     ```bash
+     pytest -v
 
 Successful test execution confirms that the environment has been created correctly.
 
