@@ -26,7 +26,7 @@ A reproducible Python environment with automated CI validation.
    ```bash
    source venv/bin/activate
 
-   Windows:
+3b. Windows:
    ```bash
    venv\Scripts\activate
 
