@@ -18,7 +18,7 @@ A reproducible Python environment with automated CI validation.
    cd repo
 
 2. Create a virtual environment:
-  python -m venv venv
+python -m venv venv
 
 3. Activate the environment:
 Linux/macOS:
